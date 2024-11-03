@@ -51,11 +51,11 @@
             // | SHIFT          |  EP_ON  | EP_OFF |      |  (    |  {   |       |  |   DEL   |  }   |  )    |  +    |  {   |   }   | SHIFT |
             //                                     |      |       |      |       |  |         |      |       |       |
             bindings = <
-    &trans            &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                         &kp F6          &kp F7              &kp F8         &kp F9               &kp F10              &trans
-    &trans            &trans        &trans        &trans        &kp PIPE      &trans                         &kp KP_PLUS     &kp AMPS            &kp EXCL       &kp LEFT_BRACKET     &kp RIGHT_BRACKET    &kp BSLH
-    &kp TILDE         &trans        &kp AT        &kp HASH      &kp QUESTION  &kp EXCL                       &kp MINUS       &kp KP_MULTIPLY     &kp QUESTION   &kp LBRC             &kp RBRC             &trans
-    &trans            &trans        &trans        &trans        &kp DOLLAR    &kp PRCNT  &trans    &kp DEL   &kp UNDER       &kp CARET           &kp DOLLAR     &kp LPAR             &kp RPAR             &trans
-                                                  &trans        &trans        &trans     &trans    &trans    &trans          &trans              &trans
+    &trans     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                         &kp F6          &kp F7       &kp F8       &kp F9               &kp F10              &trans
+    &trans     &trans  &trans  &trans  &trans  &trans                         &kp AMPS        &kp EXCL     &kp PIPE     &kp LEFT_BRACKET     &kp RIGHT_BRACKET    &kp BSLH
+    &kp TILDE  &trans  &trans  &trans  &trans  &trans                         &kp KP_MULTIPLY &kp QUESTION &kp HASH     &kp LBRC             &kp RBRC             &trans
+    &trans     &trans  &trans  &trans  &trans  &kp PRCNT  &trans    &kp DEL   &kp CARET       &kp DOLLAR   &kp AT       &kp LPAR             &kp RPAR             &trans
+                               &trans  &trans  &trans     &trans    &trans    &trans          &trans       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
